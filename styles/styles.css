@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.background {
+    min-height: 100vh;
+}
+
+.info {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 475px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.info__photo {
+    height: 300px;
+    width: 300px;
+}
+
+.info__name {
+    font-size: 1.75em;
+    padding-left: 10px;
+}
+
+.info__age {
+    padding-left: 10px;
+}
+.info__profession {
+    padding-left: 10px;
+}
