@@ -61,5 +61,3 @@ function changeGradient() {
         }, transitionTime);
     }
 }
-
-// transition: opacity 5s ease-in-out;
