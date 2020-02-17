@@ -3,7 +3,7 @@ setGradient();
 setInterval(changeGradient, 20000);
 
 function calculate_age() {
-    const date_of_birth = new Date('05/01/1995');
+    const date_of_birth = new Date('01/05/1995'); // 5 January 1995
     const diff_ms = Date.now() - date_of_birth.getTime();
     const age_dt = new Date(diff_ms);
     return Math.abs(age_dt.getUTCFullYear() - 1970);
